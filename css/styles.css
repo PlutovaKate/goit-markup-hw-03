@@ -50,6 +50,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 
 .auth-nav .link {
@@ -74,6 +75,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* section */
@@ -154,6 +156,7 @@ body {
   font-size: 18px;
   line-height: 2;
 }
+
 .portfolio-link {
   background-color: #ffffff;
   letter-spacing: 0.06em;
@@ -168,16 +171,25 @@ body {
 .footer {
   background-color: #2f303a;
 }
+
 .logo-footer {
   color: #ffffff;
 }
+.contacts {
+  list-style: none;
+  font-style: normal;
+}
 
 .footer .adress {
-  color:  #ffffff;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.footer .link:hover .footer .link:focus {
+  color: #ffffff;
 }
